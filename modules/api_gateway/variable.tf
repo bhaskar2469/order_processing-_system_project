@@ -1,0 +1,40 @@
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_InvokeARN" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_FunctionName" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_ARN" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_Name" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_Type" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_IdentitySource" {}
+variable "G_Bhaskar_OP_123_APIGateway_Name" {}
+variable "G_Bhaskar_OP_123_APIGateway_Description" {}
+variable "G_Bhaskar_OP_123_APIGateway_EndpointType" {}
+variable "G_Bhaskar_OP_123_APIGateway_Resource_PathPart" {}
+variable "G_Bhaskar_OP_123_APIGateway_RequestValidator_Name" {}
+variable "G_Bhaskar_OP_123_APIGateway_RequestValidator_ValidateRequestBody" {}
+variable "G_Bhaskar_OP_123_APIGateway_HTTPMETHOD" {}
+variable "G_Bhaskar_OP_123_APIGateway_Method_Authorization" {}
+variable "G_Bhaskar_OP_123_APIGateway_Integration_TYPE" {}
+variable "G_Bhaskar_OP_123_APIGateway_Integration_RequestTemplates" {}
+variable "G_Bhaskar_OP_123_APIGateway_Integration_RequestParameters" {}
+variable "G_Bhaskar_OP_123_APIGateway_IntegrationResponse_Post_ResponseTemplate" {}
+variable "G_Bhaskar_OP_123_APIGateway_IntegrationResponse_PUT_ResponseTemplate" {}
+variable "G_Bhaskar_OP_123_APIGateway_MethodResponse_DELETE_ResponseTemplate" {}
+variable "G_Bhaskar_OP_123_APIGateway_MethodResponse_StatusCode" {}
+variable "G_Bhaskar_OP_123_APIGateway_Method_PUT_HttpMethod" {}
+variable "G_Bhaskar_OP_123_APIGateway_Method_DELETE_HttpMethod" {}
+variable "G_Bhaskar_OP_123_APIGateway_Invoke_GET_StatementID" {}
+variable "G_Bhaskar_OP_123_APIGateway_Invoke_GET_Action" {}
+variable "G_Bhaskar_OP_123_APIGateway_Invoke_GET_Principle" {}
+variable "G_Bhaskar_OP_123_Method_GET_HttpMethod" {}
+variable "G_Bhaskar_OP_123_Integration_GET_Type" {}
+variable "G_Bhaskar_OP_123_Integration_GET_ApplicationJson" {}
+variable "G_Bhaskar_OP_123_MethodResponse_GET_ResponseModels" {}
+variable "G_Bhaskar_OP_123_IntegrationResponse_GET_ResponseTemplate" {}
+variable "G_Bhaskar_OP_123_APIGatewayDeployment_StageName" {}
+variable "arn_apigateway" {}
+variable "G_Bhaskar_OP_123_QueueSQS_path" {}
+variable "aws_account" {}
+
+variable "common_tags" {}
+variable "iam_role_arn" {
+  
+}

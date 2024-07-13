@@ -1,0 +1,25 @@
+variable "G_Bhaskar_OP_123_QueueSQS_ARN" {}
+
+variable "G_Bhaskar_OP_123_QueueSQS" {}
+variable "G_Bhaskar_OP_123_QueueSQS_URL" {}
+variable "G_Bhaskar_OP_123_DynamoDBTable_Name" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_CRUD_FileName" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_CRUD_FunctionName" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_CRUD_Handler" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_Runtime" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_FileName" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_FunctionName" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_Handler" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_FileName" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_FunctionName" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_Handler" {}
+variable "G_Bhaskar_OP_123_LambdaTrigger_BatchSize" {}
+variable "G_Bhaskar_OP_123_LambdaTrigger_MaximumBatchingWindowInSeconds" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_CRUD_FileName_archives" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_FileName_archives" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_FileName_archives" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_CRUD_Archive" {}
+variable "G_Bhaskar_OP_123_LambdaFunction_GET_Archive" {}
+variable "G_Bhaskar_OP_123_LambdaTokenAuthorizer_Archive" {}
+variable "common_tags" {}
+variable "iam_role_arn" {}

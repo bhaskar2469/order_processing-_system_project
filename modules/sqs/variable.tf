@@ -1,0 +1,9 @@
+variable "G_Bhaskar_OP_123_APIGateway_Execution_ARN" {}
+variable "G_Bhaskar_OP_123_QueueSQS_Name" {}
+variable "G_Bhaskar_OP_123_QueueSQS_DelaySeconds" {}
+variable "G_Bhaskar_OP_123_QueueSQS_MaxMessageSize" {}
+variable "G_Bhaskar_OP_123_QueueSQS_MessageRetentionSeconds" {}
+variable "G_Bhaskar_OP_123_QueueSQS_VisisbilityTimeoutSeconds" {}
+variable "G_Bhaskar_OP_123_QueueSQS_ReceiveWaitTimeSeconds" {}
+variable "G_Bhaskar_OP_123_QueueSQS_ARN" {}
+variable "common_tags" {}
