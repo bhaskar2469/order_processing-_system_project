@@ -12,7 +12,7 @@
 //     t.Parallel()
  
 //     // Terraform Directory Path
-//     terraformDir := "C:/Users//Desktop/1_29_24_G_Bhaskar_ORDERPROCESSING_123_TERRAFORM _CICD_TERRATEST/terraformusecase"
+//     terraformDir := "C:/Users//Desktop/yousystem_file_path/terraformusecase"
  
 //     terraformOptions := &terraform.Options{
 //         TerraformDir: terraformDir,
@@ -99,7 +99,7 @@
  
 //     // Add assertions for the SQS Queue URL format
 //     assert.NotNil(t, sqsQueueURL, "SQS Queue URL should not be nil")
-//     assert.Regexp(t, regexp.MustCompile("^https://sqs\\.ap-southeast-1\\.amazonaws\\.com/723725351898/G_Bhaskar_OP_123_QueueSQS$"), sqsQueueURL, "SQS Queue URL should match the expected format")
+//     assert.Regexp(t, regexp.MustCompile("^https://sqs\\.ap-southeast-1\\.amazonaws\\.com/youraws_id/G_Bhaskar_OP_123_QueueSQS$"), sqsQueueURL, "SQS Queue URL should match the expected format")
 // }
  
 // // // *******************************
